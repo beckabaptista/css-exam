@@ -15,7 +15,7 @@ h4 {
 }
 
 
-a {
+.top-link {
   color: #BF5700;
 }
 
@@ -46,4 +46,14 @@ a {
 
 .byline-1 {
   font-size: 14px;
+}
+
+.more {
+  margin-top: 20px;
+  border-bottom: solid 2px black;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-top: 5px;
 }

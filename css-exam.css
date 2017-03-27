@@ -11,7 +11,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 
@@ -28,4 +28,22 @@ a {
 .byline, .paragraph {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.top-story {
+  background-color: #D3D3D3;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto 10px auto 10px;
+}
+
+.headline-1 {
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.byline-1 {
+  font-size: 14px;
 }

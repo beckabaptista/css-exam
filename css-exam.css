@@ -57,3 +57,14 @@ h4 {
 ul {
   margin-top: 5px;
 }
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20 15 20 15;
+}
+
+body {
+  background-color: #A9A9A9;
+}

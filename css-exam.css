@@ -1,3 +1,7 @@
+* {
+   box-sizing: border-box;
+}
+
 h1 {
   margin-bottom: 0px;
 }
@@ -49,7 +53,7 @@ h4 {
 }
 
 .more {
-  margin-top: 20px;
+  margin-top: 5px;
   border-bottom: solid 2px black;
   margin-bottom: 5px;
 }
@@ -59,10 +63,33 @@ ul {
 }
 
 .container {
-  max-width: 800px;
-  margin: auto;
   background-color: white;
+}
+
+@media(min-width: 600px) {
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20 15 20 15;
+  background-color: white;
+  overflow: auto;
+}
+
+
+.left-column {
+  width: 70%;
+  float: left;
+  padding-right: 20px;
+}
+
+.right-column {
+  width: 30%;
+  float: right;
+padding-left: 20px;
+}
+
+
 }
 
 body {
